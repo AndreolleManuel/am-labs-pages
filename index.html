@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Applications métier, automatisation &amp; IA à Montélimar | AM Labs</title>
+  <meta name="description" content="Sites, applications métier, automatisations et assistants IA sur mesure pour PME. AM Labs, développeur full-stack à Montélimar, disponible partout en France." />
+
+  <link rel="icon" type="image/svg+xml" href="/brand/am-labs-monogramme.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- SEO -->
+  <meta name="author" content="Manuel Andreolle" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://amlabs.dev/" />
+  <link rel="alternate" hreflang="fr" href="https://amlabs.dev/" />
+  <link rel="alternate" hreflang="en" href="https://amlabs.dev/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://amlabs.dev/" />
+
+  <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AM Labs · Applications métier, automatisation &amp; IA" />
+  <meta property="og:description" content="Sites, applications métier, automatisations et assistants IA sur mesure pour PME." />
+  <meta property="og:url" content="https://amlabs.dev/" />
+  <meta property="og:site_name" content="AM Labs" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:image" content="https://amlabs.dev/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="AM Labs - Développeur full-stack à Montélimar" />
+  <meta name="twitter:image" content="https://amlabs.dev/og-image.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AM Labs · Applications métier, automatisation &amp; IA" />
+  <meta name="twitter:description" content="Sites, applications métier, automatisations et assistants IA sur mesure pour PME." />
+
+  <!-- Geo SEO local -->
+  <meta name="geo.region" content="FR-DRM" />
+  <meta name="geo.placename" content="Montélimar" />
+
+  <!-- Schema.org LocalBusiness (référencé par les autres pages via @id) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://amlabs.dev/#business",
+    "name": "AM Labs",
+    "alternateName": "Andreolle Manuel Labs",
+    "description": "Développeur full-stack à Montélimar. Création de sites internet, applications métier, automatisations et assistants IA sur mesure pour PME.",
+    "url": "https://amlabs.dev",
+    "logo": "https://amlabs.dev/favicon.png",
+    "telephone": "+33645543161",
+    "email": "contact@amlabs.dev",
+    "founder": {
+      "@type": "Person",
+      "name": "Manuel Andreolle",
+      "jobTitle": "Développeur full-stack & fondateur AM Labs",
+      "url": "https://www.linkedin.com/in/manuel-andreolle/"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Montélimar",
+      "addressRegion": "Drôme",
+      "postalCode": "26200",
+      "addressCountry": "FR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "44.5556",
+      "longitude": "4.7491"
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Montélimar" },
+      { "@type": "City", "name": "Valence" },
+      { "@type": "City", "name": "Aubenas" },
+      { "@type": "City", "name": "Privas" },
+      { "@type": "City", "name": "Nyons" },
+      { "@type": "City", "name": "Pierrelatte" },
+      { "@type": "City", "name": "Tournon-sur-Rhône" },
+      { "@type": "AdministrativeArea", "name": "Drôme" },
+      { "@type": "AdministrativeArea", "name": "Ardèche" },
+      { "@type": "Country", "name": "France" }
+    ],
+    "serviceType": ["Création de site internet", "Application métier sur mesure", "Automatisation de tâches", "Assistant IA sur mesure", "Connecteur ERP / e-commerce", "Audit SEO", "Maintenance site web"],
+    "priceRange": "€€",
+    "knowsAbout": ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "PostgreSQL", "Intelligence artificielle générative", "Google Gemini", "Vertex AI", "Automatisation", "Stripe", "Odoo", "Zoho Books"],
+    "sameAs": [
+      "https://www.linkedin.com/in/manuel-andreolle/",
+      "https://www.malt.fr/profile/manuelandreolle2"
+    ]
+  }
+  </script>
+
+  <!-- FAQ Schema (gros booster SEO local) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quels services propose AM Labs ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "AM Labs conçoit des sites internet, applications métier, automatisations, assistants IA sur mesure et connecteurs entre logiciels. Les audits SEO et la maintenance complètent ces prestations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quelle différence entre ChatGPT et un assistant IA sur mesure ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ChatGPT est un outil généraliste. Un assistant IA sur mesure est conçu autour de votre activité : il peut rechercher dans vos documents, respecter vos règles et préparer des actions dans vos logiciels, avec les validations que vous définissez."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Où intervient AM Labs en Drôme/Ardèche ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Basé à Montélimar (26200), j'interviens en physique dans un rayon de 60 km : Valence, Aubenas, Privas, Nyons, Pierrelatte, Tournon-sur-Rhône, Dieulefit, Crest, Bollène, Pont-Saint-Esprit, Romans, Avignon nord et alentours. Au-delà, je travaille à distance avec mes clients partout en France."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Comment se déroule un projet avec AM Labs ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Quatre étapes : 1) Diagnostic gratuit (échange 30-60 min en visio ou sur place), 2) Devis cadré sous 24-48h avec périmètre clair, tarif HT, délai et jalons, 3) Développement par étapes avec validation client à chaque jalon, 4) Mise en ligne, formation et garantie 30-90 jours selon la prestation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Combien coûte une prestation AM Labs ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Site vitrine pro : 1 800-3 500 €. Site avec module métier : 4 500-9 000 €. Application métier sur mesure : 5 500-15 000 €. Connecteur ERP / e-commerce : 3 500-8 000 €. Audit SEO : 500-1 500 €. Maintenance mensuelle : 150-450 €/mois. Pour un assistant IA sur mesure, le budget est défini après cadrage des documents, intégrations et actions attendues."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Pourquoi choisir AM Labs plutôt qu'une agence web classique ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Trois raisons : un seul interlocuteur du diagnostic à la mise en ligne (vous parlez à la personne qui code), 10 ans d'expérience terrain dans la tech avant le code (je comprends comment fonctionne une PME), et tarifs transparents HT sans frais cachés ni 'sur devis' flou."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preload" href="/fonts/general-sans-700.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/fonts/satoshi-400.woff2" as="font" type="font/woff2" crossorigin />
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <style>html,body{background:#f7f7f8;color:#111214;}</style>
+  <script type="module" crossorigin src="/assets/main-CeAYSfDl.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-Clf1Ioud.css">
+</head>
+<body>
+
+  <!-- Nav fallback (sans JS) -->
+  <noscript>
+    <nav class="nav nav-fallback">
+      <div class="nav-inner">
+        <a href="/" class="nav-logo" aria-label="AM Labs - accueil"><img src="/brand/am-labs-compact.svg" alt="AM Labs" width="130" height="48"></a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </noscript>
+
+  <!-- Placeholder injecté par partials-loader.js (charge /partials/nav.html) -->
+  <div id="nav-placeholder"></div>
+
+  <!-- Scroll progress -->
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <main>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-glow"></div>
+    </div>
+    <div class="hero-inner">
+      <div class="hero-brand"><img src="/brand/am-labs-principal.svg" alt="AM Labs — L’avenir se construit maintenant" width="552" height="340"></div>
+      <p class="hero-tagline">Agence web &amp; développeur full-stack à Montélimar (Drôme)</p>
+      <h1 class="hero-title">Votre métier est unique. Vos outils devraient l'être <span class="accent">aussi</span>.</h1>
+      <p class="hero-subtitle">Je conçois des sites, des applications métier et des automatisations sur mesure pour simplifier le quotidien des PME.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="hero-cta">
+          Lancer un projet
+          <svg aria-hidden="true" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+        <a href="#projects" class="hero-secondary">Voir les réalisations</a>
+      </div>
+      <div class="hero-badge">
+        <span class="hero-badge-dot" aria-hidden="true"></span>
+        Disponible pour de nouveaux défis
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Vos besoins</span>
+        <h2 class="section-title">Vous voulez...</h2>
+        <p class="section-desc">Partons de votre objectif, pas d'une solution toute faite.</p>
+      </div>
+      <div class="services-list">
+        <div class="service-card reveal rd1">
+          <h3>Créer un site internet</h3>
+          <p>Présenter votre activité, vendre en ligne ou proposer un espace client avec un site rapide, clair et simple à administrer.</p>
+          <p>Besoin d’un <a href="/agence-web-montelimar/">développement de site web à Montélimar</a> ? Découvrez notre accompagnement local, de la conception à la mise en ligne.</p>
+        </div>
+        <div class="service-card reveal rd2">
+          <h3>Développer une application métier</h3>
+          <p>Remplacer les fichiers Excel et les outils dispersés par une application conçue autour de votre organisation et de vos équipes.</p>
+        </div>
+        <div class="service-card reveal rd3">
+          <h3>Automatiser les tâches répétitives</h3>
+          <p>Supprimer la double saisie, synchroniser vos logiciels et automatiser les relances, documents, emails ou mises à jour.</p>
+        </div>
+        <a href="/services/assistant-ia-sur-mesure/" class="service-card reveal rd4">
+          <h3>Créer un assistant ou un agent IA</h3>
+          <p>Un outil relié à vos documents et logiciels, capable d'analyser, préparer et exécuter les tâches autorisées sous votre contrôle.</p>
+        </a>
+      </div>
+      <div class="section-cta-break">
+        <a href="#contact" class="section-cta-link">Parlez-moi de ce qui vous fait perdre du temps <svg aria-hidden="true" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- À propos -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">L'approche AM Labs</span>
+        <h2 class="section-title">L'esprit artisan. La précision du code.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal rd1">
+          <p>10 ans de terrain dans la sécurité. Technicien, formateur, référent logistique, interface directe entre les équipes terrain et les équipes dev. La personne consultée avant chaque déploiement, parce que quand une fonctionnalité touche 2 000 utilisateurs qui s'en servent huit heures par jour, <strong>elle doit coller à leur réalité</strong>.</p>
+          <p>Avoir utilisé et amélioré des dizaines d'outils avant d'en construire, ça change tout dans la manière de concevoir. Chaque fonctionnalité est pensée pour celui qui va l'utiliser. <strong>Pas pour une démo</strong>.</p>
+          <div class="about-more" id="about-more">
+            <p>Formation développeur full-stack O'Clock, puis trois produits livrés : un connecteur ERP et un site e-commerce complet au Panamá, une plateforme de réservation en région parisienne. Utilisés au quotidien.</p>
+            <p class="about-location">Basé à Montélimar. Disponible sur place en Drôme-Ardèche et en remote partout ailleurs.</p>
+          </div>
+          <button class="about-toggle" id="about-toggle" type="button">En savoir plus</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Méthode -->
+  <section class="section method" id="method">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Méthode</span>
+        <h2 class="section-title">De l'idée à la mise en prod.</h2>
+      </div>
+      <div class="method-grid">
+        <div class="method-card reveal rd1">
+          <div class="method-card-header"><span class="method-num">01</span><h3>Diagnostic</h3></div>
+          <p>On analyse vos points de blocage et vos objectifs. Échange gratuit, vision claire.</p>
+        </div>
+        <div class="method-card reveal rd2">
+          <div class="method-card-header"><span class="method-num">02</span><h3>Plan</h3></div>
+          <p>Cahier des charges précis et devis transparent. Pas de surprise sur le prix ou les délais.</p>
+        </div>
+        <div class="method-card reveal rd3">
+          <div class="method-card-header"><span class="method-num">03</span><h3>Chantier</h3></div>
+          <p>Développement par étapes. Vous testez l'outil au fur et à mesure de sa construction.</p>
+        </div>
+        <div class="method-card reveal rd4">
+          <div class="method-card-header"><span class="method-num">04</span><h3>Livraison</h3></div>
+          <p>Mise en ligne, formation et suivi. L'outil est adopté par vos équipes, pas de livraison fantôme.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Zones d'intervention (boost SEO local) -->
+  <section class="section about" id="zones">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Zone d'intervention</span>
+        <h2 class="section-title">Présent à <span class="accent">Montélimar</span>, en Drôme/Ardèche, partout en France à distance.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>Basé à <strong>Montélimar (26200)</strong>, j'interviens en physique dans tout le sud de la Drôme et la Drôme provençale, ainsi qu'en Ardèche : <strong>Valence, Aubenas, Privas, Nyons, Pierrelatte, Tournon, Dieulefit, Crest, Bollène, Pont-Saint-Esprit, Romans</strong> et leurs alentours.</p>
+          <p>Pour les rendez-vous physiques, je me déplace dans un rayon d'environ <strong>60 km autour de Montélimar</strong> sans frais. Au-delà, je travaille à distance avec mes clients partout en France - visio + outils collaboratifs, processus rodé sur mes projets <a href="/realisations/atelier-clamart/">Atelier Clamart (région parisienne)</a> et Tool Innovation Panamá (Amérique centrale) - <a href="/realisations/tool-innovation-panama/">deux</a> <a href="/realisations/toolinnov-ecommerce/">projets</a> livrés à ce même client, entièrement à distance.</p>
+          <p><a href="/agence-web-montelimar/" class="cta-link">→ Voir la page dédiée Agence web Montélimar</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projets -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Réalisations</span>
+        <h2 class="section-title">En production.</h2>
+        <p class="section-desc">Trois produits livrés, déployés, utilisés au quotidien.</p>
+      </div>
+      <div class="projects-grid">
+
+        <article class="project-card reveal rd1">
+          <a href="/realisations/toolinnov-ecommerce/" class="project-card-link">
+            <div class="project-card-media">
+              <img src="/screenshots/toolinnov-home.png" alt="toolinnov.com - boutique e-commerce sur mesure au Panamá" width="1440" height="900" loading="lazy" />
+              <span class="project-card-badge">2ᵉ projet pour ce client</span>
+            </div>
+            <div class="project-card-body">
+              <span class="project-card-client">Client · Tool Innovation Panamá</span>
+              <h3>Site e-commerce toolinnov.com</h3>
+              <p>Wix remplacé par une plateforme sur mesure : catalogue synchronisé avec Zoho Books, comptes pro, paiements locaux, 3 langues, back-office avec assistant IA.</p>
+              <div class="project-stack">
+                <span>Next.js</span>
+                <span>TypeScript</span>
+                <span>PostgreSQL</span>
+                <span>Zoho Books</span>
+              </div>
+              <span class="project-card-cta">Lire l'étude de cas
+                <svg aria-hidden="true" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card reveal rd2">
+          <a href="/realisations/atelier-clamart/" class="project-card-link">
+            <div class="project-card-media">
+              <img src="/screenshots/atelier-planning.png" alt="L'Atelier Clamart - plateforme de réservation et back-office" width="1709" height="1136" loading="lazy" />
+              <span class="project-card-badge">En ligne · atelierclamart.fr</span>
+            </div>
+            <div class="project-card-body">
+              <span class="project-card-client">Client · L'Atelier Clamart</span>
+              <h3>Plateforme pour atelier d'arts créatifs</h3>
+              <p>Réservations, abonnements, crédits, paiement Stripe, planning et back-office : le cahier papier et Excel remplacés par une plateforme 100 % automatisée.</p>
+              <div class="project-stack">
+                <span>Next.js</span>
+                <span>PostgreSQL</span>
+                <span>Stripe</span>
+                <span>Brevo</span>
+              </div>
+              <span class="project-card-cta">Lire l'étude de cas
+                <svg aria-hidden="true" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card reveal rd3">
+          <a href="/realisations/tool-innovation-panama/" class="project-card-link">
+            <div class="project-card-media">
+              <img src="/screenshots/dashboard.png" alt="Connecteur Odoo Wix - dashboard de monitoring temps réel" width="1952" height="1132" loading="lazy" />
+              <span class="project-card-badge">1ᵉʳ projet Tool Innovation</span>
+            </div>
+            <div class="project-card-body">
+              <span class="project-card-client">Client · Tool Innovation Panamá</span>
+              <h3>Connecteur Odoo ↔ Wix</h3>
+              <p>Produits, stocks et commandes synchronisés en temps réel entre l'ERP et la boutique, fiches SEO générées par IA. Zéro ressaisie. App desktop Mac &amp; Windows.</p>
+              <div class="project-stack">
+                <span>Node.js</span>
+                <span>Electron</span>
+                <span>React</span>
+                <span>Gemini</span>
+              </div>
+              <span class="project-card-cta">Lire l'étude de cas
+                <svg aria-hidden="true" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </span>
+            </div>
+          </a>
+        </article>
+
+      </div>
+      <div class="projects-cta reveal">
+        <a href="#contact" class="hero-cta">
+          Un projet en tête ? On en parle.
+          <svg aria-hidden="true" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Questions fréquentes</span>
+        <h2 class="section-title">Vos questions, mes réponses.</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Quels services propose AM Labs ?</summary>
+          <p>AM Labs conçoit des <a href="/services/creation-site-web/">sites internet</a>, des <a href="/services/application-sur-mesure/">applications métier</a>, des automatisations, des <a href="/services/assistant-ia-sur-mesure/">assistants IA sur mesure</a> et des <a href="/services/connecteur-erp-ecommerce/">connecteurs entre logiciels</a>. Les audits SEO et la maintenance complètent ces prestations.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Quelle différence entre ChatGPT et un assistant IA sur mesure ?</summary>
+          <p>ChatGPT est un outil généraliste. Un assistant IA sur mesure est conçu autour de votre activité : il peut rechercher dans vos documents, respecter vos règles et préparer des actions dans vos logiciels, avec les validations que vous définissez.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Où intervient AM Labs en Drôme/Ardèche ?</summary>
+          <p>Basé à Montélimar (26200), j'interviens en physique dans un rayon de 60 km : Valence, Aubenas, Privas, Nyons, Pierrelatte, Tournon-sur-Rhône, Dieulefit, Crest, Bollène, Pont-Saint-Esprit, Romans, Avignon nord et alentours. Au-delà, je travaille à distance avec mes clients partout en France.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Comment se déroule un projet avec AM Labs ?</summary>
+          <p>Quatre étapes : 1) Diagnostic gratuit (échange 30-60 min en visio ou sur place pour comprendre votre besoin), 2) Devis cadré sous 24-48h avec périmètre clair, tarif HT, délai et jalons, 3) Développement par étapes avec validation client à chaque jalon, 4) Mise en ligne, formation et garantie 30-90 jours selon la prestation.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Combien coûte une prestation AM Labs ?</summary>
+          <p>Site vitrine pro : 1 800-3 500 €. Site avec module métier : 4 500-9 000 €. Application métier sur mesure : 5 500-15 000 €. Connecteur ERP / e-commerce : 3 500-8 000 €. Audit SEO : 500-1 500 €. Maintenance mensuelle : 150-450 €/mois. Pour un <a href="/services/assistant-ia-sur-mesure/">assistant IA sur mesure</a>, le budget est défini après cadrage des documents, intégrations et actions attendues.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Pourquoi vous plutôt qu'une agence web classique ?</summary>
+          <p>Trois raisons : un seul interlocuteur du diagnostic à la mise en ligne (vous parlez à la personne qui code), 10 ans d'expérience terrain dans la tech avant le code (je comprends comment fonctionne une PME), et tarifs transparents HT sans frais cachés ni "sur devis" flou.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Contact</span>
+      </div>
+      <div class="contact-inner contact-inner--flow">
+
+        <div class="flow" id="brief-doc">
+
+          <!-- Intent -->
+          <div class="flow-block" id="flow-intent">
+            <p class="flow-question">Configurez votre projet.</p>
+            <div class="flow-cards flow-cards--2col">
+              <button class="flow-card flow-card--big" data-intent="project" type="button">
+                <span class="flow-card-title">J'ai un projet à lancer</span>
+                <span class="flow-card-desc">Application, site, automatisation, IA...</span>
+              </button>
+              <button class="flow-card flow-card--big" data-intent="mission" type="button">
+                <span class="flow-card-title">Je cherche un développeur</span>
+                <span class="flow-card-desc">Mission freelance, CDI, CDD</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Services -->
+          <div class="flow-block flow-block--hidden" id="br-type-row">
+            <p class="flow-question">Qu'est-ce qu'on construit ?</p>
+            <p class="flow-hint">Plusieurs choix possibles.</p>
+            <div class="flow-cards">
+              <button class="flow-card" data-svc="app" type="button">
+                <span class="flow-card-title">Application métier</span>
+                <span class="flow-card-desc">Dashboard, gestion, automatisation</span>
+              </button>
+              <button class="flow-card" data-svc="connector" type="button">
+                <span class="flow-card-title">Connecteur</span>
+                <span class="flow-card-desc">Relier vos outils existants</span>
+              </button>
+              <button class="flow-card" data-svc="site" type="button">
+                <span class="flow-card-title">Site & plateforme</span>
+                <span class="flow-card-desc">Vitrine, e-commerce, réservation</span>
+              </button>
+              <button class="flow-card" data-svc="automation" type="button">
+                <span class="flow-card-title">Automatisation</span>
+                <span class="flow-card-desc">Tâches répétitives, documents, relances</span>
+              </button>
+              <button class="flow-card" data-svc="ai" type="button">
+                <span class="flow-card-title">Assistant IA sur mesure</span>
+                <span class="flow-card-desc">Documents, contenus, actions dans vos outils</span>
+              </button>
+              <button class="flow-card" data-svc="web3" type="button">
+                <span class="flow-card-title">Web3 / Blockchain</span>
+                <span class="flow-card-desc">Analyse on-chain, tracking, outils crypto</span>
+              </button>
+              <button class="flow-card" data-svc="conseil" type="button">
+                <span class="flow-card-title">Conseil & vision</span>
+                <span class="flow-card-desc">Pas encore d'idée claire</span>
+              </button>
+              <button class="flow-card" data-svc="other" type="button">
+                <span class="flow-card-title">Autre chose</span>
+                <span class="flow-card-desc">Parlons-en</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Modules -->
+          <div class="flow-block flow-block--hidden" id="br-modules-row">
+            <p class="flow-question">De quoi avez-vous besoin ?</p>
+            <p class="flow-hint">Sélectionnez les fonctionnalités clés.</p>
+            <div class="flow-modules-grid" id="br-modules"></div>
+          </div>
+
+          <!-- Budget -->
+          <div class="flow-block flow-block--hidden" id="br-budget-row">
+            <p class="flow-question">Avez-vous déjà une enveloppe en tête ?</p>
+            <div class="flow-pills">
+              <button class="flow-pill" data-budget="unknown" type="button">À définir ensemble</button>
+              <button class="flow-pill" data-budget="lt3" type="button">Moins de 3 000 €</button>
+              <button class="flow-pill" data-budget="3-7" type="button">3 000 à 7 000 €</button>
+              <button class="flow-pill" data-budget="7-15" type="button">7 000 à 15 000 €</button>
+              <button class="flow-pill" data-budget="15-30" type="button">15 000 à 30 000 €</button>
+              <button class="flow-pill" data-budget="30plus" type="button">Plus de 30 000 €</button>
+            </div>
+            <p class="flow-budget-disclaimer">Ce choix sert uniquement à orienter le premier échange. Le budget définitif est discuté ensemble.</p>
+          </div>
+
+          <!-- Timeline -->
+          <div class="flow-block flow-block--hidden" id="br-timeline-row">
+            <p class="flow-question">Quel délai ?</p>
+            <div class="flow-pills">
+              <button class="flow-pill" data-tl="asap" type="button">Dès que possible</button>
+              <button class="flow-pill" data-tl="1-3" type="button">1 à 3 mois</button>
+              <button class="flow-pill" data-tl="norush" type="button">Pas de rush</button>
+              <button class="flow-pill" data-tl="dunno" type="button">Je sais pas encore</button>
+            </div>
+          </div>
+
+          <!-- Mission: Profil -->
+          <div class="flow-block flow-block--hidden" id="br-mtype-row">
+            <p class="flow-question">Quel type de profil ?</p>
+            <div class="flow-pills">
+              <button class="flow-pill" data-mt="fullstack" type="button">Fullstack</button>
+              <button class="flow-pill" data-mt="frontend" type="button">Frontend</button>
+              <button class="flow-pill" data-mt="backend" type="button">Backend</button>
+              <button class="flow-pill" data-mt="conseil" type="button">Conseil technique</button>
+            </div>
+          </div>
+
+          <!-- Mission: Cadre -->
+          <div class="flow-block flow-block--hidden" id="br-mcadre-row">
+            <p class="flow-question">Quel cadre ?</p>
+            <div class="flow-pills">
+              <button class="flow-pill" data-mc="freelance" type="button">Freelance</button>
+              <button class="flow-pill" data-mc="cdi" type="button">CDI</button>
+              <button class="flow-pill" data-mc="cdd" type="button">CDD</button>
+            </div>
+          </div>
+
+          <!-- Mission: Durée -->
+          <div class="flow-block flow-block--hidden" id="br-mduree-row">
+            <p class="flow-question">Quelle durée ?</p>
+            <div class="flow-pills">
+              <button class="flow-pill" data-md="court" type="button">Moins d'un mois</button>
+              <button class="flow-pill" data-md="moyen" type="button">1 à 3 mois</button>
+              <button class="flow-pill" data-md="long" type="button">3 à 6 mois</button>
+              <button class="flow-pill" data-md="xl" type="button">6 mois+</button>
+            </div>
+          </div>
+
+          <!-- Mission: Remote -->
+          <div class="flow-block flow-block--hidden" id="br-mremote-row">
+            <p class="flow-question">Organisation ?</p>
+            <div class="flow-pills">
+              <button class="flow-pill" data-mr="full" type="button">Full remote</button>
+              <button class="flow-pill" data-mr="hybrid" type="button">Hybride</button>
+              <button class="flow-pill" data-mr="onsite" type="button">Présentiel</button>
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <div class="flow-block flow-block--hidden" id="flow-contact">
+            <p class="flow-question">On en parle ?</p>
+            <div class="flow-fields">
+              <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+              <div class="form-group">
+                <label for="brief-name">Nom</label>
+                <input type="text" id="brief-name" name="name" placeholder="Votre nom" maxlength="100" required />
+              </div>
+              <div class="form-group">
+                <label for="brief-email">Email</label>
+                <input type="email" id="brief-email" name="email" placeholder="votre@email.com" maxlength="254" required />
+              </div>
+              <div class="form-group">
+                <label for="brief-message">Quelque chose à ajouter ? <span style="opacity:0.5">(optionnel)</span></label>
+                <textarea id="brief-message" name="message" rows="3" placeholder="Contexte, détails, questions..." maxlength="5000"></textarea>
+              </div>
+              <div class="cf-turnstile" data-sitekey="0x4AAAAAACukDbqptql46TBo" data-theme="dark"></div>
+              <label class="form-consent">
+                <input type="checkbox" id="brief-consent" required />
+                <span>En envoyant ce formulaire, j'accepte que mes données soient traitées pour répondre à ma demande.</span>
+              </label>
+              <button class="flow-submit" id="brief-submit" type="button">Envoyer mon projet</button>
+            </div>
+          </div>
+
+          <p class="contact-reassurance">Échange gratuit et sans engagement.</p>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Placeholder injecté par partials-loader.js (charge /partials/footer.html) -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Retour en haut">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"bb16935c50d048f4b2555c94532fa9b5"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
